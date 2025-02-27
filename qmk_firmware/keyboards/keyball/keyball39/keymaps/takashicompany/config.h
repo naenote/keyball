@@ -38,3 +38,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // #define TAPPING_TERM
 #define TAPPING_TERM 150
+
+// always make left side as master
+#define MASTER_LEFT
