@@ -41,3 +41,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // always make left side as master
 #define MASTER_LEFT
+
+// enable permissive holdz
+#define PERMISSIVE_HOLD
