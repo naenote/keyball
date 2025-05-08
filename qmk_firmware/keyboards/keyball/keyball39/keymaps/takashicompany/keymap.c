@@ -80,8 +80,8 @@ int16_t mouse_movement;
 void eeconfig_init_user(void) {
     user_config.raw = 0;
     user_config.to_clickable_movement = 50;
-    user_config.mouse_scroll_v_reverse = false;
-    user_config.mouse_scroll_h_reverse = false;
+    user_config.mouse_scroll_v_reverse = true;
+    user_config.mouse_scroll_h_reverse = true;
     eeconfig_update_user(user_config.raw);
 }
 
